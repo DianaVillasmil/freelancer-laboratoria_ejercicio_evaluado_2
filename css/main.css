@@ -150,3 +150,7 @@ hr {
   text-align: center;
   font-size: 25px;
 }
+
+#about .container{
+  font-size: 10px;
+}
