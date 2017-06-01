@@ -1,3 +1,152 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left;
+}
+
+.col-1 {
+  /* (1/12)*100 */
+  width: 8.333333%;
+}
+
+.col-2 {
+  /* (2/12)*100 */
+  width: 16.666667%;
+}
+
+.col-3 {
+  /* (3/12)*100 */
+  width: 25%;
+}
+
+.col-4 {
+  /* (4/12)*100 */
+  width: 33.333333%;
+}
+
+.col-5 {
+  /* (5/12)*100 */
+  width: 41.666667;
+}
+
+.col-6 {
+  /* (6/12)*100 */
+  width: 50%;
+}
+
+.col-7 {
+  /* (7/12)*100 */
+  width: 58.333333%;
+}
+
+.col-8 {
+  /* (8/12)*100 */
+  width: 66.666667%;
+}
+
+.col-9 {
+  /* (9/12)*100 */
+  width: 75%;
+}
+
+
+.col-10{
+  /* (10/12)*100 */
+  width: 83.333333%;
+}
+
+.col-11 {
+  /* (11/12)*100 */
+  width: 91.666667%;
+}
+
+.col-12 {
+  /* (12/12)*100 */
+  width: 100%;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;f
+}
+
+header {
+    position: fixed;
+    background: #314459;
+    width: 100%;
+    top: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  float: right;
+  padding: 10px;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+header p {
+	color: white;
+}
+
+#home {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  color: white;
+  padding: 70px;
+  background-color: #19c3a8;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 40px;
+}
+
+img {
+	padding: 20px;
+}
+hr {
+  height: 10px;
+  width: 10%;
+  text-align: center
+  background-color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 25px;
+}
