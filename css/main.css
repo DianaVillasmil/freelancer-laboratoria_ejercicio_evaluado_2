@@ -122,9 +122,9 @@ header p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 554px;
   color: white;
   padding: 70px;
+  padding-top: 140px;
   background-color: #19c3a8;
   text-align: center;
 }
@@ -136,12 +136,6 @@ header p {
 img {
 	padding: 20px;
 }
-hr {
-  height: 10px;
-  width: 10%;
-  text-align: center
-  background-color: white;
-}
 
 .container {
   width: 100%;
@@ -151,6 +145,33 @@ hr {
   font-size: 25px;
 }
 
-#about .container{
-  font-size: 10px;
+#about p {
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+  color: white;
+}
+
+#about h1 {
+  color: white;
+}
+
+#about {
+  background-color: #19c3a8;
+  padding: 50px;
+}
+
+#contactme input {
+  width: 100%;
+  font-size: 25px;
+  border-style: none;
+  border-width: 0;
+  border-color: transparent; 
+}
+
+footer {
+  background-color: #314459;
+  color: white;
+  text-align: center;
+  padding: 25px;
 }
