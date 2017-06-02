@@ -102,20 +102,39 @@ header {
 a {
   color: white;
   text-decoration: none;
+  padding: 20px;
+}
+
+header a {
   float: right;
-  padding: 10px;
 }
 
 a:hover {
-  color: #fff;
+  color: #0827d4;
 }
 
 .text-uppercase {
     text-transform: uppercase;
 }
 
+#portfolio h2.titulo {
+  font-size: 35px;
+  padding: 10px;
+}
+#about h2.text-about {
+  font-size: 35px;
+}
+
+#contactme h2.text-contactme{
+  font-size: 35px;
+}
+
 header p {
 	color: white;
+  padding: 20px 20px 0px 20px;
+  display: inline-block;
+  font-size: 20px;
+  border-width: bold;
 }
 
 #home {
@@ -142,7 +161,6 @@ img {
   max-width: 1200px;
   margin: 0px auto;
   text-align: center;
-  font-size: 25px;
 }
 
 #about p {
@@ -159,19 +177,41 @@ img {
 #about {
   background-color: #19c3a8;
   padding: 50px;
+  font-size: 25px;
 
 }
 
 #contactme {
   padding: 50px;
+  overflow: auto;
 }
-#contactme input {
+#contactme input,
+#contactme textarea {
   width: 100%;
   font-size: 25px;
   border-style: none;
   border-width: 0;
   border-color: transparent; 
   margin: 20px;
+  outline: none;
+}
+
+#contactme button {
+  background-color: #19c3a8;
+  border-style: none;
+  border-width: 0;
+  border-color: transparent;
+  border-radius: 5px;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px 0;
+  float: left;
+  cursor: pointer;
+}
+
+#contactme button:hover {
+  background-color: #009075;
 }
 
 #information {
@@ -183,6 +223,18 @@ img {
   margin: 0;
 }
 
+#information a i {
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 footer {
   background-color: #253849;
   color: white;
@@ -192,6 +244,7 @@ footer {
 
 .starline {
   color: #314459;
+  font-size: 32px !important;
 }
 
 #home .starline {
@@ -200,4 +253,12 @@ footer {
 
 #information {
   background-color: #31455a;
+  padding: 50px;
+
+}
+
+.text-start {
+  float: left;
+  font-weight: bold;
+  font-size: 23px;
 }

@@ -6,14 +6,17 @@
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
 	<link rel="stylesheet"  href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
 </head>
 <body>
 	<!-- Escribe tu código aquí -->
 	<header>
-		<p class="text-uppercase">Start Bootstrap</p>
-		<a href="#" class="text-uppercase link">Portafolio</a>
-		<a href="#" class="text-uppercase link">About</a>
-		<a href="#" class="text-uppercase link">Contact</a>
+		<div class="container">
+			<a class="text-uppercase text-start">Start Bootstrap</a>
+			<a href="#" class="text-uppercase link">Portafolio</a>
+			<a href="#" class="text-uppercase link">About</a>
+			<a href="#" class="text-uppercase link">Contact</a>
+		</div>
 	</header>
 	<section id="home">
 		<div class="container">
@@ -30,7 +33,7 @@
 	</section>
 	<section id="portfolio">
 		<div class="container">
-			<h2 class="text-uppercase text mt-0">
+			<h2 class="text-uppercase text mt-0 titulo">
 				Portfolio
 			</h2>
 			<h2 class="starline">&#9135;&#9135;&#9135;&#9135; &#128970; &#9135;&#9135;&#9135;&#9135;
@@ -71,7 +74,7 @@
 	</section>
 	<section id="about">
 		<div class="container">
-			<h2 class="text-uppercase text-home mb-0">
+			<h2 class="text-uppercase text-about">
 					about
 			</h2>
 			<h2 class="starline">&#9135;&#9135;&#9135;&#9135; &#128970; &#9135;&#9135;&#9135;&#9135;
@@ -100,8 +103,9 @@
 			<hr>
 			<input type="text" required id="phone" placeholder="Phone Number">
 			<hr>
-			<input type="text" required id="message" placeholder="Message">
+			<textarea required id="message" placeholder="Message" rows="5"></textarea>
 			<hr>
+			<button id="send">Send</button>
 		</div>
 	</section>
 	<section id="information">
@@ -119,11 +123,15 @@
 			</div>
 			<div class="row">
 				<div class="col-4">
-					3481 Melrose Place
+					3481 Melrose Place<br/>
 					Beverly Hills,CA 90210
 				</div>
 				<div class="col-4 text-uppercase">
-					ICONOS
+					<a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="https://plus.google.com/people"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/login?lang=es"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="https://www.linkedin.com/uas/login"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					<a href="https://dribbble.com/signup"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
 				</div>
 				<div class="col-4">
 					Freelance is a free to use, open source
