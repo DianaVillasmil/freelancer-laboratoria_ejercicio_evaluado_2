@@ -152,26 +152,52 @@ img {
   color: white;
 }
 
-#about h1 {
+#about h2 {
   color: white;
 }
 
 #about {
   background-color: #19c3a8;
   padding: 50px;
+
 }
 
+#contactme {
+  padding: 50px;
+}
 #contactme input {
   width: 100%;
   font-size: 25px;
   border-style: none;
   border-width: 0;
   border-color: transparent; 
+  margin: 20px;
+}
+
+#information {
+  color: white;
+}
+
+#information a {
+  padding: 0;
+  margin: 0;
 }
 
 footer {
-  background-color: #314459;
+  background-color: #253849;
   color: white;
   text-align: center;
   padding: 25px;
+}
+
+.starline {
+  color: #314459;
+}
+
+#home .starline {
+  color: white;
+}
+
+#information {
+  background-color: #31455a;
 }
