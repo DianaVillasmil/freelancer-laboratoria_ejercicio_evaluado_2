@@ -94,19 +94,33 @@ body {
 
 header {
     position: fixed;
-    background: #314459;
+    background-color: #314459;
     width: 100%;
     top: 0;
+}
+
+header.collapse a.text-start {
+  font-size: 16px;
+  transition-duration: 500ms;
+}
+
+header.collapse a:not(.text-start) {
+  padding: 20px;
 }
 
 a {
   color: white;
   text-decoration: none;
-  padding: 20px;
+  padding: 20px;    
 }
 
 header a {
+  transition-duration: 500ms;
   float: right;
+}
+
+header a.selected {
+  background-color: green;
 }
 
 a:hover {
@@ -261,4 +275,21 @@ footer {
   float: left;
   font-weight: bold;
   font-size: 23px;
+}
+
+.btn {
+  border-color: white;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px;
+  font-size: 1rem;
+  transition-duration: 600ms;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #19c3a8;
+  transition-duration: 600ms;
 }

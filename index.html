@@ -10,12 +10,12 @@
 </head>
 <body>
 	<!-- Escribe tu código aquí -->
-	<header>
+	<header id="nav">
 		<div class="container">
 			<a class="text-uppercase text-start">Start Bootstrap</a>
-			<a href="#" class="text-uppercase link">Portafolio</a>
-			<a href="#" class="text-uppercase link">About</a>
-			<a href="#" class="text-uppercase link">Contact</a>
+			<a href="#contactme" class="text-uppercase link" id="navContact">Contact</a>			
+			<a href="#about" class="text-uppercase link" id="navAbout">About</a>
+			<a href="#portfolio" class="text-uppercase link" id="navPortfolio">Portfolio</a>			
 		</div>
 	</header>
 	<section id="home">
@@ -87,6 +87,10 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mi sed risus sodales elementum. Phasellus placerat, eros sit amet lacinia interdum, quam augue semper tellus, ac mollis leo velit vitae velit. Ut tristique leo sed diam pulvinar tincidunt in eget velit. Aliquam ultrices sagittis risus, at euismod arcu auctor sed. Morbi vulputate nulla et accumsan rutrum. Maecenas euismod ipsum lorem, sit amet ullamcorper erat dictum sed. Mauris nunc lorem, pulvinar imperdiet feugiat et, bibendum id sapien.</p>
 				</div>
 			</div>
+
+			<a href="#" class="btn">
+				<i class="fa fa-download" aria-hidden="true"></i> Download Theme
+			</a>
 		</div>
 	</section>
 	<section id="contactme">
@@ -97,15 +101,17 @@
 			<h2 class="starline">&#9135;&#9135;&#9135;&#9135; &#128970; &#9135;&#9135;&#9135;&#9135;
 			</h2>
 			<hr>
-			<input type="text" required id="name" placeholder="Name">
+			<form id="form">
+				<input type="text" required id="name" placeholder="Name">
+				<hr>
+				<input type="email" required id="email" placeholder="Email Address">
+				<hr>
+				<input type="text" required id="phone" placeholder="Phone Number">
+				<hr>
+				<textarea required id="message" placeholder="Message" rows="5"></textarea>
+			</form>
 			<hr>
-			<input type="email" required id="email" placeholder="Email Address">
-			<hr>
-			<input type="text" required id="phone" placeholder="Phone Number">
-			<hr>
-			<textarea required id="message" placeholder="Message" rows="5"></textarea>
-			<hr>
-			<button id="send">Send</button>
+			<button id="send" onclick="send()">Send</button>
 		</div>
 	</section>
 	<section id="information">
@@ -144,7 +150,7 @@
 		<p>Copyright © Your Website 2016</p>
 	</footer>
 	<!-- Enlaza aquí tu archivo JS -->
-	<script type="js/app.js"></script>
+	<script src="js/app.js"></script>
 	
 </body>
 </html>
